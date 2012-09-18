@@ -37,7 +37,7 @@ user@host:~$ make_warnings all
 para_exec will execute any commando in four MPI connected machines with hostnames: proc0, proc1 ... proc3
 example:
 ````bash
-user@hprocX:~$ hostname
+user@hprocX:~$ para_exec hostname
 proc0
 proc1
 proc2
