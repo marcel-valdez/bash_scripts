@@ -1,0 +1,4 @@
+#!/bin/bash
+make $@ &> make.errors
+egrep -i "(error[s]{0,1}|undefined|test|fail|pass)[ :]" make.errors
+rm make.errors

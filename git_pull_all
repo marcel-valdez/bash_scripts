@@ -1,0 +1,5 @@
+#!/bin/bash
+mpiexec.mpich2 -hosts proc0 git pull origin master
+mpiexec.mpich2 -hosts proc1 git pull origin master
+mpiexec.mpich2 -hosts proc2 git pull origin master
+mpiexec.mpich2 -hosts proc3 git pull origin master

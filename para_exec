@@ -1,0 +1,5 @@
+#!/bin/bash
+mpiexec.mpich2 -hosts proc0 $@
+mpiexec.mpich2 -hosts proc1 $@
+mpiexec.mpich2 -hosts proc2 $@
+mpiexec.mpich2 -hosts proc3 $@
