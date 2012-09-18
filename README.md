@@ -7,7 +7,7 @@ Asuming you added the bash_scripts folder in $HOME/bash_scripts.
 git_pull_all will pull git repositories in four MPI connected machines with hostnames: proc0, proc1 ... proc3
 example:
 ````bash
-user@host:~$ git_pull_ull
+user@host:~$ git_pull_all
 ````
 
 git_push will push the current repository to the remote origin
